@@ -7,4 +7,30 @@ body {
 
 h1 {
   color: darkblue;
-} ex
+} 
+/* Styling the navigation menu */
+nav ul {
+  list-style-type: none; /* Removes bullet points */
+  margin: 0;
+  padding: 0;
+  background-color: #333; /* Dark background */
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+nav li {
+  float: left; /* Makes the items sit side-by-side */
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /* Removes the underline */
+}
+
+/* Changes the color when you hover over a link */
+nav li a:hover {
+  background-color: #111;
+}
